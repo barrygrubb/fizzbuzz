@@ -7,6 +7,8 @@ def fizzbuzz
     'fizz'
   elsif self % 5 == 0
     'buzz'
+  else
+    return self
   end
 
 end
